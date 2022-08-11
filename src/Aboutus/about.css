@@ -1,0 +1,26 @@
+.about-us-detail{
+
+   display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.about-myself{
+   
+    flex: 1 1 42rem;
+    margin: auto;
+}
+.image-data{
+    order: unset;
+    flex: 1 1 42rem;
+}
+.sss{
+    display:flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.s{
+    flex: 1 1 30rem;
+   
+}
+

@@ -1,0 +1,14 @@
+i{
+    font-size: 50px;
+    color: orange;
+   
+}
+.boo button.slick-arrow.slick-next::before{
+    display: none;
+}
+.boo button.slick-arrow.slick-prev::before{
+    display: none;
+}
+.boo{
+    margin: 50px;
+}
