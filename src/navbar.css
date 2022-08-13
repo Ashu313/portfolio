@@ -110,6 +110,8 @@ a i{
    
     .menu-icons{
         display: block;
+        position:fixed;
+        z-index:1
       
        
     }
