@@ -10,5 +10,6 @@ i{
     display: none;
 }
 .boo{
-    margin: 50px;
+   
+    overflow-x: hidden;
 }

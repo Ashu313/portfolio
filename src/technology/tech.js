@@ -40,7 +40,7 @@ const Tech=()=>{
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 300,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1

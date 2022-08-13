@@ -15,18 +15,22 @@ function App() {
 return(
     <>
 <Navbar></Navbar>
-<About></About>
-
 <Skill></Skill>
 <Tech></Tech>
 <AllProject/>
 <Achieve></Achieve>
 <Contact></Contact>
-
 <Footer></Footer>
 
 
+{/*<About></About>
 
+<Skill></Skill>
+<Tech></Tech>
+
+
+<Footer></Footer>
+*/}
 </>
 )
  

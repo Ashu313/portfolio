@@ -1,5 +1,6 @@
 .project-us-container{
     overflow-x: auto;
+    word-break: break-all;
 }
 .project-us-detail{
 
