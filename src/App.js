@@ -2,25 +2,35 @@
 import React from 'react';
 import './App.css';
 import Navbar from './navbar';
-import Contact from './contact/contact';
-import Skill from './skills/skills';
-import About from './Aboutus/about';
-import AllProject from './project/projectall';
-import Achieve from './achievement/achievementData';
-import Tech from './technology/tech';
-import Sticky from './sticky/sticky';
-import Footer from './footer/footer';
+
+import Home from './Home/home';
+import {
+    BrowserRouter as Router,
+  } from 'react-router-dom'
 
 function App() {
 return(
     <>
+<React.Fragment>
+    <Router>
 <Navbar></Navbar>
-<Skill></Skill>
-<Tech></Tech>
-<AllProject/>
-<Achieve></Achieve>
-<Contact></Contact>
-<Footer></Footer>
+
+</Router>
+{/*
+<AnchorLink href='#About' element={<About/>}/>
+<AnchorLink href='#Skill' element={<Skill/>}/>
+<AnchorLink href='#Tech'  element={<Tech/>}/>
+<AnchorLink href='#Project' element={<Project/>}/>
+<AnchorLink href='#Achieve' element={<Achieve/>}/>
+<AnchorLink href='#Contact' element={<Contact/>}/>
+<AnchorLink href='#Footer' element={<Footer/>}/>
+*/}
+
+
+<Home></Home>
+
+
+</React.Fragment>
 
 
 {/*<About></About>

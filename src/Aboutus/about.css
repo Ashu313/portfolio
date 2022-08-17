@@ -9,6 +9,13 @@
     flex: 1 1 42rem;
     margin: auto;
 }
+.icons{
+    font-size: 40px;
+    color: orange;
+}
+.icons:hover{
+    color: blue;
+}
 .image-data{
     order: unset;
     flex: 1 1 42rem;

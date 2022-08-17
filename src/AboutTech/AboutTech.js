@@ -1,12 +1,12 @@
 import React from "react";
-import "./about.css"
 
-const About = () => {
+
+const Skill = () => {
 
 
     return (
 
-        <section className='contact-form' id="About1">
+        <section className='contact-form' id="Skill">
             <h1 class="heading">
                 <span>A</span>
                 <span>B</span>
@@ -30,15 +30,14 @@ const About = () => {
                       <p>I am enthusaitc dedicated engineer who love to explore and experiment about the new technology,having good problem solving skilss and would love to work with people to grow and learn together.</p>
                         </div>
                       <div className="sss">
-                      <a href='https://m.facebook.com/ashutoshkumar.kumar.96' target='_blank'  rel="noreferrer"><i className='fab fa-facebook-f'></i></a>
+                  
+                   <i class="fa-solid fa-phone"></i>
+                   <i class="fa-solid fa-hat-chef"></i>
+                  <i class="fas fa-envelope"></i>
+                  <iconify-icon icon="simple-icons:leetcode"></iconify-icon>
+                   <i className='fab fa-linkedin'></i>
                
-                      
-                      <a href='https://www.codechef.com/users/ashu_1244' target='blank'><iconify-icon icon="simple-icons:codechef" class='icons'></iconify-icon></a>
-                 
-                  <a href="https://leetcode.com/ashu_1244/" target='_blank'><iconify-icon icon="simple-icons:leetcode"  class='icons'></iconify-icon></a>
-                   <a href='https://www.linkedin.com/in/ashutosh-kumar-325353218/' target='_blank' rel="noreferrer"><i className='fab fa-linkedin'></i></a>
-                
-             
+    
                   
                        
                     </div>
@@ -54,4 +53,4 @@ const About = () => {
 }
 
 
-export default About;
+export default Skill;

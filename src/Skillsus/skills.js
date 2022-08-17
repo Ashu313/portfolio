@@ -2,11 +2,13 @@ import React from "react";
 
 import {Bar}from 'react-chartjs-2';
 import { Chart, registerables } from 'chart.js';
+
 Chart.register(...registerables);
 
 const Skill=()=>{
 
-    var  data= {
+   
+   var  data= {
         labels:['DSA', 'HTML', 'CSS', 'MONGODB', 'JAVASCRIPT', 'REACT','NODEJS'],
         datasets: [{
             label: 'skills out of 20',
@@ -62,8 +64,8 @@ const Skill=()=>{
     }
     return(
        
-        <section>
-             <h1 class="heading">
+        <section className='contact-form' id="Skill">
+             <h1 class="heading" >
             <span>S</span>
             <span>K</span>
             <span>I</span>

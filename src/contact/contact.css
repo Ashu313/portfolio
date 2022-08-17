@@ -17,10 +17,16 @@ input,textarea,button{
     padding: 1rem;
     margin-top: 3%;
     border: 3px solid grey;
-    background: #333;
+
     color: white;
 }
-
+.kk{
+    font-size: 20px;
+    color: orange;
+}
+.kk:hover{
+    color: blue;
+}
 p{
     font-size: 20px;
     margin: 50px;
@@ -64,5 +70,9 @@ i{
 @media  screen and (max-width:500px) {
     .details{
         display: contents;
+    }
+    .kk{
+        font-size: 10px;
+        color: orange;
     }
 }

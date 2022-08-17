@@ -51,19 +51,23 @@ const Tech=()=>{
     return (
 
 <>
-        <section className='contact-form'>
+        <section className='contact-form' id='Tech'>
         <h1 class="heading">
-            <span>S</span>
-            <span>K</span>
-            <span>I</span>
-            <span>I</span>
+            <span>T</span>
+            <span>E</span>
+            <span>C</span>
+            <span>H</span>
+            <span>N</span>
+            <span>O</span>
             <span>L</span>
-            <span>S</span>
+            <span>O</span>
+            <span>G</span>
+            <span>Y</span>
           
 
 
         </h1>
-        </section>
+       
       <div  className="boo">
        
         <Slider {...settings}>
@@ -137,6 +141,7 @@ const Tech=()=>{
         
         </Slider>
       </div>
+      </section>
       </>
     );
   }

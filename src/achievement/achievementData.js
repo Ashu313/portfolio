@@ -10,7 +10,7 @@ const Achieve=()=>{
         AOS.init();
       }, []);
     return(
-        <section className='contact-form'>
+        <section className='contact-form' id="Achieve">
         <h1 class="heading">
             <span>A</span>
             <span>C</span>

@@ -3,6 +3,8 @@ import React from "react";
 import { useState } from "react";
 import ReactTyped from "react-typed";
 import "./navbar.css";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+
 
 const Navbar = () => {
     const[click,setClick]=useState(false);
@@ -25,18 +27,22 @@ const Navbar = () => {
            <i className={click?"fas fa-times":"fas fa-bars"}></i>
            </div>
                     <ul className="nav_flex">
-                        <li className="nav_items" onClick={closeMobileMenu}>home</li>
-                        <li className="nav_items" onClick={closeMobileMenu}>About</li>
-                        <li className="nav_items" onClick={closeMobileMenu}>Services</li>
-                        <li className="nav_items" onClick={closeMobileMenu}>Portfolio</li>
-                        <li className="nav_items" onClick={closeMobileMenu}>Blog </li>
+                    <li className="nav_items" onClick={closeMobileMenu}><AnchorLink href='#Home'>Home</AnchorLink> </li>
+                 
+                    <li className="nav_items" onClick={closeMobileMenu}><AnchorLink href="#About1">About</AnchorLink></li>
+                    <li className="nav_items" onClick={closeMobileMenu}><AnchorLink href="#Skill">Skill</AnchorLink></li>
+                    <li className="nav_items" onClick={closeMobileMenu}><AnchorLink href="#Tech">Tech</AnchorLink></li>
+                    <li className="nav_items" onClick={closeMobileMenu}><AnchorLink href="#Project">Project</AnchorLink></li>
+                    <li className="nav_items" onClick={closeMobileMenu}><AnchorLink href='#Achieve'>achievement</AnchorLink> </li>
+                        <li className="nav_items" onClick={closeMobileMenu}><AnchorLink href='#Contact'>Contact</AnchorLink></li>
+                       
                       
-                        <li className="nav_items"onClick={closeMobileMenu} >content </li>
                     </ul>
                 </div>
                 </div>
                 </div>
                 <div className="container">
+                  
                    
                     <div className="about_myself">
                     
@@ -53,6 +59,9 @@ const Navbar = () => {
                     />
                     </h1>
                    </div>
+                   <div className="img-svg">
+                <img src = "/images/home-main.svg" alt="My Happy SVG"/>
+                </div>
                 
                 </div>
                 <div className="resume">
