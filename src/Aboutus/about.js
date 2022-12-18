@@ -35,6 +35,7 @@ const About = () => {
                       
                       <a href='https://www.codechef.com/users/ashu_1244' target='blank'><iconify-icon icon="simple-icons:codechef" class='icons'></iconify-icon></a>
                  
+                         <a href='https://codeforces.com/profile/Tortorise' target='blank'><iconify-icon icon="simple-icons:codeforces" class='icons'></iconify-icon></a>
                   <a href="https://leetcode.com/ashu_1244/" target='_blank' rel="noreferrer"><iconify-icon icon="simple-icons:leetcode"  class='icons'></iconify-icon></a>
                    <a href='https://www.linkedin.com/in/ashutosh-kumar-325353218/' target='_blank' rel="noreferrer"><i className='fab fa-linkedin'></i></a>
                 
