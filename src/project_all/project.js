@@ -104,7 +104,7 @@ const Project=()=>{
                 <button type="button" onClick={More}>{show?'ShowLess':'ShowMore'}</button>
                 </div>
                  <div className={show?'d':'d active'}>
-                <p>created a Messanger Chat App using react js as frontend and rebase as backend</p>
+                <p>created a Messanger Chat App using react js as frontend and firebase as backend</p>
                   <ul>
                     <li>Implemented user authentications
 </li>
@@ -115,8 +115,9 @@ const Project=()=>{
             </div>
             </div>
          </div>
+       
          
-       </div>
+    
        </section>
       
     )
