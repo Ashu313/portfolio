@@ -124,7 +124,7 @@ const Achieve=()=>{
                   
                  
                   <div className="image" >
-                      <img src="/images/leetcode.jpg" alt="a" data-aos="fade-right"></img>
+                      <img src="/images/leetcode.png" alt="a" data-aos="fade-right"></img>
                   
                       </div>
                     
