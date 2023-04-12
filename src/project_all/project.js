@@ -130,12 +130,12 @@ const Project=()=>{
                 </div>
                  <div className={show?'d':'d active'}>
  
-                <p><Created a Cashbook for both admin and user Panel and /p>
+                <p>Created a Cashbook for both admin and user Panel and </p>
                   <ul>
                     <li>  Implemented a MERN stack expense app with two panels for admin and user.
 </li>
                     <li> Developed user authentication and authorization using Passport.js and JWT tokens</li>
-                    <li>Implemented pagination, search, and ltering functionality for the expenses and income table.</li>
+                    <li>Implemented pagination, search, and filtering functionality for the expenses and income table.</li>
                     <li>Implemented data visualization in the form of graphs for the admin panel and user to display income and expense data</li>
                   </ul>
             </div>
