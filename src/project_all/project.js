@@ -115,7 +115,32 @@ const Project=()=>{
             </div>
             </div>
          </div>
-       
+         <div className="project">
+            <div className="project-image">
+            <img src="/images/chatApp.png" alt=""></img>
+            </div>
+            <div className="project-detail">
+                <h1>Messenger Chat App</h1> 
+                <div className="i-name">
+                 <a href="http://chat-app-51cd3.web.app/" target='_blank' rel="noreferrer"><i class="fa-solid fa-globe"></i></a>
+                 <a href='https://github.com/Ashu313/MyChat' target='_blank' rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+               </div>
+                <div className="butt">
+                <button type="button" onClick={More}>{show?'ShowLess':'ShowMore'}</button>
+                </div>
+                 <div className={show?'d':'d active'}>
+                <p>created a Messanger Chat App using react js as frontend and firebase as backend</p>
+                  <ul>
+                    <li>Implemented user authentications
+</li>
+                    <li>Implemented search for the specic user through email i</li>
+                    <li>Implemented last seen features, live typing</li>
+                    <li>Implemented custom emoji, voice recorder, speech translation features</li>
+                  </ul>
+            </div>
+            </div>
+         </div>
+         
          
     
        </section>
