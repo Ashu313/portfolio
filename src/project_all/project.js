@@ -120,7 +120,7 @@ const Project=()=>{
             <img src="/images/chatApp.png" alt=""></img>
             </div>
             <div className="project-detail">
-                <h1>Messenger Chat App</h1> 
+                <h1>Cashbook</h1> 
                 <div className="i-name">
                  <a href="https://cashbook-1244.web.app/" target='_blank' rel="noreferrer"><i class="fa-solid fa-globe"></i></a>
                  <a href='https://github.com/Ashu313/cashbook' target='_blank' rel="noreferrer"><i class="fa-brands fa-github"></i></a>
