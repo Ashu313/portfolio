@@ -122,20 +122,21 @@ const Project=()=>{
             <div className="project-detail">
                 <h1>Messenger Chat App</h1> 
                 <div className="i-name">
-                 <a href="http://chat-app-51cd3.web.app/" target='_blank' rel="noreferrer"><i class="fa-solid fa-globe"></i></a>
-                 <a href='https://github.com/Ashu313/MyChat' target='_blank' rel="noreferrer"><i class="fa-brands fa-github"></i></a>
+                 <a href="https://cashbook-1244.web.app/" target='_blank' rel="noreferrer"><i class="fa-solid fa-globe"></i></a>
+                 <a href='https://github.com/Ashu313/cashbook' target='_blank' rel="noreferrer"><i class="fa-brands fa-github"></i></a>
                </div>
                 <div className="butt">
                 <button type="button" onClick={More}>{show?'ShowLess':'ShowMore'}</button>
                 </div>
                  <div className={show?'d':'d active'}>
-                <p>created a Messanger Chat App using react js as frontend and firebase as backend</p>
+ 
+                <p><Created a Cashbook for both admin and user Panel and /p>
                   <ul>
-                    <li>Implemented user authentications
+                    <li>  Implemented a MERN stack expense app with two panels for admin and user.
 </li>
-                    <li>Implemented search for the specic user through email i</li>
-                    <li>Implemented last seen features, live typing</li>
-                    <li>Implemented custom emoji, voice recorder, speech translation features</li>
+                    <li> Developed user authentication and authorization using Passport.js and JWT tokens</li>
+                    <li>Implemented pagination, search, and ltering functionality for the expenses and income table.</li>
+                    <li>Implemented data visualization in the form of graphs for the admin panel and user to display income and expense data</li>
                   </ul>
             </div>
             </div>
