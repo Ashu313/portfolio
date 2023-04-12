@@ -117,7 +117,7 @@ const Project=()=>{
          </div>
          <div className="project">
             <div className="project-image">
-            <img src="/images/Screenshot (74).png" alt=""></img>
+            <img src="/images/Screenshot (75).png" alt=""></img>
             </div>
             <div className="project-detail">
                 <h1>Cashbook</h1> 
