@@ -89,7 +89,7 @@ const Project=()=>{
             </div>
          </div>
          
-       </div>
+      
    <div className="project">
             <div className="project-image">
             <img src="/images/chatApp.png" alt=""></img>
@@ -140,9 +140,9 @@ const Project=()=>{
             </div>
             </div>
          </div>
+       
          
-         
-    
+    </div>
        </section>
       
     )
