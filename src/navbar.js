@@ -65,7 +65,7 @@ const Navbar = () => {
                 
                 </div>
                 <div className="resume">
-                    <button type="download"><a href="/images/ashutosh_kumar.pdf" download>DownloadCv</a><i class="fa fa-download" aria-hidden="true" style={{ color: 'black', font:'25px'}}></i></button>
+                    <button type="download"><a href="/images/AshutoshKumar Btech-24.pdf" download>DownloadCv</a><i class="fa fa-download" aria-hidden="true" style={{ color: 'black', font:'25px'}}></i></button>
                 </div>
             </div>
      
